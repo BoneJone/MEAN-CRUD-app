@@ -1,0 +1,59 @@
+.table {
+  color: #b3cde0;
+  margin: 20px 10px;
+}
+
+.postheader {
+  background: #005b96;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.text {
+  font-size: 14px;
+  text-align: left;
+}
+
+.editbtn {
+  border-radius: 1px;
+  height: 30px;
+  width: 70px;
+  font-size: 14px;
+  background-color: #6497B1;
+  color: #b3cde0;
+  border: none;
+}
+
+.editbtn:hover {
+  background-color: #a2c0d0;
+  color: #03396c;
+}
+
+.delebtn {
+  border-radius: 1px;
+  height: 30px;
+  width: 70px;
+  font-size: 14px;
+  background-color: #3c5a6a;
+  color: #b3cde0;
+  border: none;
+}
+
+.delebtn:hover {
+  background-color: #7F0000;
+}
+
+.posts tr:nth-child(even) {
+  background: #03396c;
+}
+
+.posts tr:nth-child(odd) {
+  background: #011f4b;
+}
