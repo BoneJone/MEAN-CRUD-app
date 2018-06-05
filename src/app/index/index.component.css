@@ -1,6 +1,11 @@
 .table {
   color: #b3cde0;
-  margin: 20px 10px;
+  margin-top: 20px;
+}
+
+.table-borderless td,
+.table-borderless th {
+    border: 0;
 }
 
 .postheader {
