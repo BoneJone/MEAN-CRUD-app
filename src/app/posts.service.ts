@@ -20,7 +20,7 @@ export class PostsService {
   }
 
   addPost(title, body) {
-    const uri = 'http://localhost:3000/api/add';
+    const uri = 'api/add';
     const obj = {
       title: title,
       body: body
@@ -29,21 +29,21 @@ export class PostsService {
   }
 //muutettu
   getPosts() {
-    const uri ='http://localhost:3000/api';
+    const uri ='api';
     return this.http.get(uri).map(res => {
       return res;
     });
   }
 
   editPost(id) {
-    const uri = 'http://localhost:3000/api/edit/' + id;
+    const uri = 'api/edit/' + id;
     return this.http.get(uri).map(res => {
       return res;
     });
   }
 
   updatePost(title, body, id) {
-    const uri = 'http://localhost:3000/api/update/' + id;
+    const uri = 'api/update/' + id;
 
     const obj = {
       title: title,
@@ -53,9 +53,11 @@ export class PostsService {
   }
 
   deletePost(id) {
-    const uri = 'http://localhost:3000/api/delete/' +id;
+    const uri = 'api/delete/' +id;
       return this.http.get(uri).map(res => {
         return res;
       });
   }
 }
+
+//http://localhost:3000/
